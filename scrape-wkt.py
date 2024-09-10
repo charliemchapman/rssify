@@ -11,8 +11,8 @@ def get_image_url(img_elem):
             # Parse srcset and get the first (usually largest) image URL
             srcset = img_elem['srcset'].split(',')
             if srcset:
-                first_src = srcset[0].strip().split(' ')[0]
-                return first_src
+                last_src = srcset[-1].strip().split(' ')[0]
+                return last_src
         elif 'src' in img_elem.attrs and not img_elem['src'].startswith('data:'):
             return img_elem['src']
     return None
