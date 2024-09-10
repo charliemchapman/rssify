@@ -53,8 +53,8 @@ def scrape_newspaper():
                     link = f"https://www.timesnewspapers.com{link}"
                 
                 image_url = get_image_url(image_elem)
-                if image_url and not image_url.startswith('http'):
-                    image_url = f"https://www.timesnewspapers.com{image_url}"
+                # if image_url and not image_url.startswith('http'):
+                #     image_url = f"https://www.timesnewspapers.com{image_url}"
                 
                 articles.append({
                     'title': title, 
