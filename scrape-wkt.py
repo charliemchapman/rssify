@@ -8,13 +8,11 @@ import os
 def get_image_url(img_elem):
     if img_elem:
         if 'data-srcset' in img_elem.attrs:
-            # Parse srcset and get the first (usually largest) image URL
             srcset = img_elem['data-srcset'].split(',')
             if srcset:
                 last_src = srcset[-1].strip().split(' ')[0]
                 return last_src
-        if 'srcset' in img_elem.attrs:
-            # Parse srcset and get the first (usually largest) image URL
+        elif 'srcset' in img_elem.attrs:
             srcset = img_elem['srcset'].split(',')
             if srcset:
                 last_src = srcset[-1].strip().split(' ')[0]
@@ -49,6 +47,7 @@ def scrape_newspaper():
             link_elem = article.select_one('a')
             summary_elem = article.select_one('p.tnt-summary')
             image_elem = article.select_one('img')
+            date_elem = article.select_one('time')
             
             if title_elem and link_elem:
                 title = title_elem.text.strip()
@@ -62,15 +61,26 @@ def scrape_newspaper():
                 if image_url and not image_url.startswith('http'):
                     image_url = f"https://www.timesnewspapers.com{image_url}"
                 
+                date = None
+                if date_elem and 'datetime' in date_elem.attrs:
+                    date_str = date_elem['datetime']
+                    try:
+                        date = datetime.datetime.fromisoformat(date_str)
+                    except ValueError:
+                        print(f"Could not parse date: {date_str}")
+                
                 articles.append({
                     'title': title, 
                     'link': link, 
                     'summary': summary,
-                    'image_url': image_url
+                    'image_url': image_url,
+                    'date': date
                 })
                 print(f"Article Found: {title}")
                 if image_url:
                     print(f"Image URL: {image_url}")
+                if date:
+                    print(f"Date: {date}")
             else:
                 print("Incomplete article data found")
         except Exception as e:
@@ -92,7 +102,7 @@ def generate_rss(articles):
             'title': article['title'],
             'link': article['link'],
             'description': article['summary'],
-            'pubdate': datetime.datetime.now(),
+            'pubdate': article['date'] if article['date'] else datetime.datetime.now(),
         }
         if article['image_url']:
             item['enclosure'] = feedgenerator.Enclosure(
