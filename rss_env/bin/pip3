@@ -1,4 +1,4 @@
-#!/Users/charliechapman/Developer/rssify/rss_env/bin/python3.12
+#!/Users/charliechapman/Developer/rssify/rss_env/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
