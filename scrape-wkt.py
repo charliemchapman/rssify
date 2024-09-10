@@ -7,16 +7,16 @@ import os
 # Function to scrape the newspaper website
 def scrape_newspaper():
     url = "https://www.timesnewspapers.com/search/?l=100"
-    response = requests.get(url)
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.content, 'html.parser')
     
     articles = []
     
     # Select all divs with class 'card-container'
     article_containers = soup.select('div.card-container')
-
-    print(soup.prettify())
-
     
     print(f"Number of article containers found: {len(article_containers)}")
     
@@ -27,11 +27,11 @@ def scrape_newspaper():
     for i, article in enumerate(article_containers):
         try:
             print(f"\nProcessing article {i+1}:")
-            print(article.prettify())  # Print the HTML of each article for debugging
             
             title_elem = article.select_one('h3')
             link_elem = article.select_one('a')
             summary_elem = article.select_one('p.tnt-summary')
+            image_elem = article.select_one('img')  # Look for an image element
             
             if title_elem and link_elem:
                 title = title_elem.text.strip()
@@ -41,36 +41,51 @@ def scrape_newspaper():
                 if not link.startswith('http'):
                     link = f"https://www.timesnewspapers.com{link}"
                 
-                articles.append({'title': title, 'link': link, 'summary': summary})
+                image_url = None
+                if image_elem and 'src' in image_elem.attrs:
+                    image_url = image_elem['src']
+                    if not image_url.startswith('http'):
+                        image_url = f"https://www.timesnewspapers.com{image_url}"
+                
+                articles.append({
+                    'title': title, 
+                    'link': link, 
+                    'summary': summary,
+                    'image_url': image_url
+                })
                 print(f"Article Found: {title}")
+                if image_url:
+                    print(f"Image URL: {image_url}")
             else:
                 print("Incomplete article data found")
-                if not title_elem:
-                    print("Title element not found")
-                if not link_elem:
-                    print("Link element not found")
         except Exception as e:
             print(f"Error processing an article: {e}")
     
     print(f"\nTotal articles found: {len(articles)}")
     return articles
 
-# Function to generate RSS feed
 def generate_rss(articles):
     feed = feedgenerator.Rss201rev2Feed(
-        title="Webster Kirwood Times RSS Feed",
+        title="Webster Kirwood Times",
         link="https://www.timesnewspapers.com/",
         description="Latest news from our Webster Kirwood Times",
         language="en",
     )
     
     for article in articles:
-        feed.add_item(
-            title=article['title'],
-            link=article['link'],
-            description=article['summary'],
-            pubdate=datetime.datetime.now()
-        )
+        item = {
+            'title': article['title'],
+            'link': article['link'],
+            'description': article['summary'],
+            'pubdate': datetime.datetime.now(),
+        }
+        if article['image_url']:
+            item['enclosure'] = feedgenerator.Enclosure(
+                url=article['image_url'],
+                length='0',
+                mime_type='image/jpeg'
+            )
+        feed.add_item(**item)
     
     return feed.writeString('utf-8')
 
