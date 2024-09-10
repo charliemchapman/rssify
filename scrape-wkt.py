@@ -5,6 +5,18 @@ import datetime
 import os
 
 # Function to scrape the newspaper website
+def get_image_url(img_elem):
+    if img_elem:
+        if 'srcset' in img_elem.attrs:
+            # Parse srcset and get the first (usually largest) image URL
+            srcset = img_elem['srcset'].split(',')
+            if srcset:
+                first_src = srcset[0].strip().split(' ')[0]
+                return first_src
+        elif 'src' in img_elem.attrs and not img_elem['src'].startswith('data:'):
+            return img_elem['src']
+    return None
+
 def scrape_newspaper():
     url = "https://www.timesnewspapers.com/search/?l=100"
     headers = {
@@ -15,7 +27,6 @@ def scrape_newspaper():
     
     articles = []
     
-    # Select all divs with class 'card-container'
     article_containers = soup.select('div.card-container')
     
     print(f"Number of article containers found: {len(article_containers)}")
@@ -31,7 +42,7 @@ def scrape_newspaper():
             title_elem = article.select_one('h3')
             link_elem = article.select_one('a')
             summary_elem = article.select_one('p.tnt-summary')
-            image_elem = article.select_one('img')  # Look for an image element
+            image_elem = article.select_one('img')
             
             if title_elem and link_elem:
                 title = title_elem.text.strip()
@@ -41,11 +52,9 @@ def scrape_newspaper():
                 if not link.startswith('http'):
                     link = f"https://www.timesnewspapers.com{link}"
                 
-                image_url = None
-                if image_elem and 'src' in image_elem.attrs:
-                    image_url = image_elem['src']
-                    if not image_url.startswith('http'):
-                        image_url = f"https://www.timesnewspapers.com{image_url}"
+                image_url = get_image_url(image_elem)
+                if image_url and not image_url.startswith('http'):
+                    image_url = f"https://www.timesnewspapers.com{image_url}"
                 
                 articles.append({
                     'title': title, 
