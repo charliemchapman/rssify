@@ -7,6 +7,12 @@ import os
 # Function to scrape the newspaper website
 def get_image_url(img_elem):
     if img_elem:
+        if 'data-srcset' in img_elem.attrs:
+            # Parse srcset and get the first (usually largest) image URL
+            srcset = img_elem['data-srcset'].split(',')
+            if srcset:
+                last_src = srcset[-1].strip().split(' ')[0]
+                return last_src
         if 'srcset' in img_elem.attrs:
             # Parse srcset and get the first (usually largest) image URL
             srcset = img_elem['srcset'].split(',')
@@ -53,8 +59,8 @@ def scrape_newspaper():
                     link = f"https://www.timesnewspapers.com{link}"
                 
                 image_url = get_image_url(image_elem)
-                # if image_url and not image_url.startswith('http'):
-                #     image_url = f"https://www.timesnewspapers.com{image_url}"
+                if image_url and not image_url.startswith('http'):
+                    image_url = f"https://www.timesnewspapers.com{image_url}"
                 
                 articles.append({
                     'title': title, 
