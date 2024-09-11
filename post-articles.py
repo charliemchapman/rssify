@@ -1,7 +1,7 @@
 import json
 import os
 import feedparser
-from feedgenerator import Rss201rev2Feed
+from feedgenerator import Rss201rev2Feed, Enclosure
 import datetime
 import pytz
 
@@ -71,7 +71,7 @@ def update_rss(new_articles):
             description=article['summary'],
             pubdate=current_time,
             unique_id=article['link'],
-            enclosure=feedgenerator.Enclosure(
+            enclosure=Enclosure(
                 url=article['image_url'],
                 length='0',
                 mime_type='image/jpeg'
