@@ -1,86 +1,122 @@
+import requests
+from bs4 import BeautifulSoup
+import datetime
 import json
 import os
-import feedgenerator
-import datetime
 
 # Define the directory for storing JSON files
 SCRAPE_BUCKET = 'scrape-bucket'
 
-def load_articles():
+def get_image_url(img_elem):
+    if img_elem:
+        if 'data-srcset' in img_elem.attrs:
+            srcset = img_elem['data-srcset'].split(',')
+            if srcset:
+                last_src = srcset[-1].strip().split(' ')[0]
+                return last_src
+        elif 'srcset' in img_elem.attrs:
+            srcset = img_elem['srcset'].split(',')
+            if srcset:
+                last_src = srcset[-1].strip().split(' ')[0]
+                return last_src
+        elif 'src' in img_elem.attrs and not img_elem['src'].startswith('data:'):
+            return img_elem['src']
+    return None
+
+def load_existing_articles():
     file_path = os.path.join(SCRAPE_BUCKET, 'scraped_articles.json')
     if os.path.exists(file_path):
         with open(file_path, 'r') as f:
             return json.load(f)
     return []
 
-def load_posted_articles():
-    file_path = os.path.join(SCRAPE_BUCKET, 'posted_articles.json')
-    if os.path.exists(file_path):
-        with open(file_path, 'r') as f:
-            return json.load(f)
-    return []
-
-def save_posted_articles(posted_articles):
-    file_path = os.path.join(SCRAPE_BUCKET, 'posted_articles.json')
-    with open(file_path, 'w') as f:
-        json.dump(posted_articles, f)
-
-def generate_rss(articles):
-    feed = feedgenerator.Rss201rev2Feed(
-        title="Webster Kirwood Times",
-        link="https://www.timesnewspapers.com/",
-        description="Latest news from our Webster Kirwood Times",
-        language="en",
-    )
+def scrape_newspaper():
+    url = "https://www.timesnewspapers.com/search/?l=100"
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
+    response = requests.get(url, headers=headers)
+    soup = BeautifulSoup(response.content, 'html.parser')
     
-    for article in articles:
-        pubdate = datetime.datetime.fromisoformat(article['date']) if article['date'] else datetime.datetime.now()
-        item = {
-            'title': article['title'],
-            'link': article['link'],
-            'description': article['summary'],
-            'pubdate': pubdate,
-        }
-        if article['image_url']:
-            item['enclosure'] = feedgenerator.Enclosure(
-                url=article['image_url'],
-                length='0',
-                mime_type='image/jpeg'
-            )
-        feed.add_item(**item)
+    existing_articles = load_existing_articles()
+    existing_titles = set(article['title'] for article in existing_articles)
     
-    return feed.writeString('utf-8')
+    new_articles = []
+    
+    article_containers = soup.select('div.card-container')
+    
+    print(f"Number of article containers found: {len(article_containers)}")
+    
+    if not article_containers:
+        print("No article containers found. The website structure might have changed.")
+        return new_articles
 
-def post_articles(num_articles=3):
+    for i, article in enumerate(article_containers):
+        try:
+            print(f"\nProcessing article {i+1}:")
+            
+            title_elem = article.select_one('h3')
+            link_elem = article.select_one('a')
+            summary_elem = article.select_one('p.tnt-summary')
+            image_elem = article.select_one('img')
+            date_elem = article.select_one('time')
+            
+            if title_elem and link_elem:
+                title = title_elem.text.strip()
+                
+                # Skip this article if the title already exists
+                if title in existing_titles:
+                    print(f"Skipping duplicate article: {title}")
+                    continue
+                
+                link = link_elem['href']
+                summary = summary_elem.text.strip() if summary_elem else "No summary available"
+                
+                if not link.startswith('http'):
+                    link = f"https://www.timesnewspapers.com{link}"
+                
+                image_url = get_image_url(image_elem)
+                if image_url and not image_url.startswith('http'):
+                    image_url = f"https://www.timesnewspapers.com{image_url}"
+                
+                date = None
+                if date_elem and 'datetime' in date_elem.attrs:
+                    date_str = date_elem['datetime']
+                    try:
+                        date = datetime.datetime.fromisoformat(date_str).isoformat()
+                    except ValueError:
+                        print(f"Could not parse date: {date_str}")
+                
+                new_articles.append({
+                    'title': title, 
+                    'link': link, 
+                    'summary': summary,
+                    'image_url': image_url,
+                    'date': date
+                })
+                print(f"New Article Found: {title}")
+                if image_url:
+                    print(f"Image URL: {image_url}")
+                if date:
+                    print(f"Date: {date}")
+            else:
+                print("Incomplete article data found")
+        except Exception as e:
+            print(f"Error processing an article: {e}")
+    
+    print(f"\nTotal new articles found: {len(new_articles)}")
+    
     # Ensure the scrape-bucket directory exists
     os.makedirs(SCRAPE_BUCKET, exist_ok=True)
+    
+    # Combine new articles with existing ones and save
+    all_articles = existing_articles + new_articles
+    file_path = os.path.join(SCRAPE_BUCKET, 'scraped_articles.json')
+    with open(file_path, 'w') as f:
+        json.dump(all_articles, f)
 
-    all_articles = load_articles()
-    posted_articles = load_posted_articles()
-    
-    # Find articles that haven't been posted yet
-    new_articles = [a for a in all_articles if a['link'] not in posted_articles]
-    
-    # Select the oldest articles to post
-    articles_to_post = sorted(new_articles, key=lambda x: x['date'] or '')[:num_articles]
-    
-    if articles_to_post:
-        rss_feed = generate_rss(articles_to_post)
-        
-        # Save the RSS feed
-        feeds_dir = 'feeds'
-        os.makedirs(feeds_dir, exist_ok=True)
-        file_path = os.path.join(feeds_dir, 'webster_kirwood_times_feed.xml')
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(rss_feed)
-        
-        # Update the list of posted articles
-        posted_articles.extend([a['link'] for a in articles_to_post])
-        save_posted_articles(posted_articles)
-        
-        print(f"Posted {len(articles_to_post)} new articles")
-    else:
-        print("No new articles to post")
+    print(f"Added {len(new_articles)} new articles. Total articles: {len(all_articles)}")
+    return new_articles
 
 if __name__ == "__main__":
-    post_articles()
+    scrape_newspaper()
