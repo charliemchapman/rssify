@@ -1,10 +1,14 @@
 import json
 import os
-import feedgenerator
+import feedparser
+from feedgenerator import Rss201rev2Feed
 import datetime
+import pytz
 
 # Define the directory for storing JSON files
 SCRAPE_BUCKET = 'scrape-bucket'
+FEEDS_DIR = 'feeds'
+RSS_FILE = 'webster_kirwood_times_feed.xml'
 
 def load_articles():
     file_path = os.path.join(SCRAPE_BUCKET, 'scraped_articles.json')
@@ -25,32 +29,61 @@ def save_posted_articles(posted_articles):
     with open(file_path, 'w') as f:
         json.dump(posted_articles, f)
 
-def generate_rss(articles):
-    feed = feedgenerator.Rss201rev2Feed(
-        title="Webster Kirwood Times",
-        link="https://www.timesnewspapers.com/",
-        description="Latest news from our Webster Kirwood Times",
-        language="en",
-    )
+def update_rss(new_articles):
+    rss_path = os.path.join(FEEDS_DIR, RSS_FILE)
     
-    current_time = datetime.datetime.now(datetime.timezone.utc)
+    if os.path.exists(rss_path):
+        # Parse existing feed
+        existing_feed = feedparser.parse(rss_path)
+        
+        # Create new feed with existing metadata
+        feed = Rss201rev2Feed(
+            title=existing_feed.feed.title,
+            link=existing_feed.feed.link,
+            description=existing_feed.feed.description,
+            language=existing_feed.feed.language,
+        )
+        
+        # Add existing items
+        for item in existing_feed.entries:
+            feed.add_item(
+                title=item.title,
+                link=item.link,
+                description=item.description,
+                pubdate=datetime.datetime(*item.published_parsed[:6], tzinfo=pytz.UTC),
+                unique_id=item.get('id', item.link)
+            )
+    else:
+        # Create new feed if it doesn't exist
+        feed = Rss201rev2Feed(
+            title="Webster Kirwood Times",
+            link="https://www.timesnewspapers.com/",
+            description="Latest news from our Webster Kirwood Times",
+            language="en",
+        )
     
-    for article in articles:
-        item = {
-            'title': article['title'],
-            'link': article['link'],
-            'description': article['summary'],
-            'pubdate': current_time,  # Use current time for all articles
-        }
-        if article['image_url']:
-            item['enclosure'] = feedgenerator.Enclosure(
+    # Add new articles
+    current_time = datetime.datetime.now(pytz.UTC)
+    for article in new_articles:
+        feed.add_item(
+            title=article['title'],
+            link=article['link'],
+            description=article['summary'],
+            pubdate=current_time,
+            unique_id=article['link'],
+            enclosure=feedgenerator.Enclosure(
                 url=article['image_url'],
                 length='0',
                 mime_type='image/jpeg'
-            )
-        feed.add_item(**item)
+            ) if article['image_url'] else None
+        )
     
-    return feed.writeString('utf-8')
+    # Ensure the feeds directory exists
+    os.makedirs(FEEDS_DIR, exist_ok=True)
+    
+    # Write the updated feed
+    with open(rss_path, 'w', encoding='utf-8') as f:
+        feed.write(f, 'utf-8')
 
 def post_articles(num_articles=5):
     # Ensure the scrape-bucket directory exists
@@ -66,14 +99,7 @@ def post_articles(num_articles=5):
     articles_to_post = sorted(new_articles, key=lambda x: x['date'] or datetime.datetime.max.isoformat())[:num_articles]
     
     if articles_to_post:
-        rss_feed = generate_rss(articles_to_post)
-        
-        # Save the RSS feed
-        feeds_dir = 'feeds'
-        os.makedirs(feeds_dir, exist_ok=True)
-        file_path = os.path.join(feeds_dir, 'webster_kirwood_times_feed.xml')
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write(rss_feed)
+        update_rss(articles_to_post)
         
         # Update the list of posted articles
         posted_articles.extend([a['link'] for a in articles_to_post])
