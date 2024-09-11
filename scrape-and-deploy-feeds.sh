@@ -1,3 +1,4 @@
+cd /Users/charliechapman/Developer/rssify
 ./scrape-feeds.sh
 
 git add .
