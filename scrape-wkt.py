@@ -1,25 +1,17 @@
 import requests
 from bs4 import BeautifulSoup
-import feedgenerator
 import datetime
+import json
 import os
 
-# Function to scrape the newspaper website
 def get_image_url(img_elem):
-    if img_elem:
-        if 'data-srcset' in img_elem.attrs:
-            srcset = img_elem['data-srcset'].split(',')
-            if srcset:
-                last_src = srcset[-1].strip().split(' ')[0]
-                return last_src
-        elif 'srcset' in img_elem.attrs:
-            srcset = img_elem['srcset'].split(',')
-            if srcset:
-                last_src = srcset[-1].strip().split(' ')[0]
-                return last_src
-        elif 'src' in img_elem.attrs and not img_elem['src'].startswith('data:'):
-            return img_elem['src']
-    return None
+    # ... (keep this function as is)
+
+def load_existing_articles():
+    if os.path.exists('scraped_articles.json'):
+        with open('scraped_articles.json', 'r') as f:
+            return json.load(f)
+    return []
 
 def scrape_newspaper():
     url = "https://www.timesnewspapers.com/search/?l=100"
@@ -29,7 +21,10 @@ def scrape_newspaper():
     response = requests.get(url, headers=headers)
     soup = BeautifulSoup(response.content, 'html.parser')
     
-    articles = []
+    existing_articles = load_existing_articles()
+    existing_titles = set(article['title'] for article in existing_articles)
+    
+    new_articles = []
     
     article_containers = soup.select('div.card-container')
     
@@ -37,7 +32,7 @@ def scrape_newspaper():
     
     if not article_containers:
         print("No article containers found. The website structure might have changed.")
-        return articles
+        return new_articles
 
     for i, article in enumerate(article_containers):
         try:
@@ -51,6 +46,12 @@ def scrape_newspaper():
             
             if title_elem and link_elem:
                 title = title_elem.text.strip()
+                
+                # Skip this article if the title already exists
+                if title in existing_titles:
+                    print(f"Skipping duplicate article: {title}")
+                    continue
+                
                 link = link_elem['href']
                 summary = summary_elem.text.strip() if summary_elem else "No summary available"
                 
@@ -65,18 +66,18 @@ def scrape_newspaper():
                 if date_elem and 'datetime' in date_elem.attrs:
                     date_str = date_elem['datetime']
                     try:
-                        date = datetime.datetime.fromisoformat(date_str)
+                        date = datetime.datetime.fromisoformat(date_str).isoformat()
                     except ValueError:
                         print(f"Could not parse date: {date_str}")
                 
-                articles.append({
+                new_articles.append({
                     'title': title, 
                     'link': link, 
                     'summary': summary,
                     'image_url': image_url,
                     'date': date
                 })
-                print(f"Article Found: {title}")
+                print(f"New Article Found: {title}")
                 if image_url:
                     print(f"Image URL: {image_url}")
                 if date:
@@ -86,46 +87,15 @@ def scrape_newspaper():
         except Exception as e:
             print(f"Error processing an article: {e}")
     
-    print(f"\nTotal articles found: {len(articles)}")
-    return articles
-
-def generate_rss(articles):
-    feed = feedgenerator.Rss201rev2Feed(
-        title="Webster Kirwood Times",
-        link="https://www.timesnewspapers.com/",
-        description="Latest news from our Webster Kirwood Times",
-        language="en",
-    )
+    print(f"\nTotal new articles found: {len(new_articles)}")
     
-    for article in articles:
-        item = {
-            'title': article['title'],
-            'link': article['link'],
-            'description': article['summary'],
-            'pubdate': article['date'] if article['date'] else datetime.datetime.now(),
-        }
-        if article['image_url']:
-            item['enclosure'] = feedgenerator.Enclosure(
-                url=article['image_url'],
-                length='0',
-                mime_type='image/jpeg'
-            )
-        feed.add_item(**item)
-    
-    return feed.writeString('utf-8')
+    # Combine new articles with existing ones and save
+    all_articles = existing_articles + new_articles
+    with open('scraped_articles.json', 'w') as f:
+        json.dump(all_articles, f)
 
-# Main execution
+    print(f"Added {len(new_articles)} new articles. Total articles: {len(all_articles)}")
+    return new_articles
+
 if __name__ == "__main__":
-    articles = scrape_newspaper()
-    rss_feed = generate_rss(articles)
-    
-    # Create the 'feeds' directory if it doesn't exist
-    feeds_dir = 'feeds'
-    os.makedirs(feeds_dir, exist_ok=True)
-    
-    # Save the RSS feed to a file in the 'feeds' directory
-    file_path = os.path.join(feeds_dir, 'webster_kirwood_times_feed.xml')
-    with open(file_path, 'w', encoding='utf-8') as f:
-        f.write(rss_feed)
-    
-    print("RSS feed generated successfully!")
+    scrape_newspaper()
