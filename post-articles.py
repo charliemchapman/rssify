@@ -33,13 +33,14 @@ def generate_rss(articles):
         language="en",
     )
     
+    current_time = datetime.datetime.now(datetime.timezone.utc)
+    
     for article in articles:
-        pubdate = datetime.datetime.fromisoformat(article['date']) if article['date'] else datetime.datetime.now()
         item = {
             'title': article['title'],
             'link': article['link'],
             'description': article['summary'],
-            'pubdate': pubdate,
+            'pubdate': current_time,  # Use current time for all articles
         }
         if article['image_url']:
             item['enclosure'] = feedgenerator.Enclosure(
