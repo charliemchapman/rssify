@@ -4,12 +4,29 @@ import datetime
 import json
 import os
 
+# Define the directory for storing JSON files
+SCRAPE_BUCKET = 'scrape-bucket'
+
 def get_image_url(img_elem):
-    # ... (keep this function as is)
+    if img_elem:
+        if 'data-srcset' in img_elem.attrs:
+            srcset = img_elem['data-srcset'].split(',')
+            if srcset:
+                last_src = srcset[-1].strip().split(' ')[0]
+                return last_src
+        elif 'srcset' in img_elem.attrs:
+            srcset = img_elem['srcset'].split(',')
+            if srcset:
+                last_src = srcset[-1].strip().split(' ')[0]
+                return last_src
+        elif 'src' in img_elem.attrs and not img_elem['src'].startswith('data:'):
+            return img_elem['src']
+    return None
 
 def load_existing_articles():
-    if os.path.exists('scraped_articles.json'):
-        with open('scraped_articles.json', 'r') as f:
+    file_path = os.path.join(SCRAPE_BUCKET, 'scraped_articles.json')
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
             return json.load(f)
     return []
 
@@ -89,9 +106,13 @@ def scrape_newspaper():
     
     print(f"\nTotal new articles found: {len(new_articles)}")
     
+    # Ensure the scrape-bucket directory exists
+    os.makedirs(SCRAPE_BUCKET, exist_ok=True)
+    
     # Combine new articles with existing ones and save
     all_articles = existing_articles + new_articles
-    with open('scraped_articles.json', 'w') as f:
+    file_path = os.path.join(SCRAPE_BUCKET, 'scraped_articles.json')
+    with open(file_path, 'w') as f:
         json.dump(all_articles, f)
 
     print(f"Added {len(new_articles)} new articles. Total articles: {len(all_articles)}")
