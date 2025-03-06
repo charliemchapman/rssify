@@ -1,0 +1,1478 @@
+Apple Design Resources - Apple Developer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+View in English
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Global Nav Open Menu
+
+
+Global Nav Close Menu
+
+
+
+
+Apple Developer
+
+
+
+
+
+
+
+
+
+
+Search
+
+
+
+Cancel
+
+
+
+
+
+
+
+
+Apple Developer
+
+
+
+
+News
+
+
+
+
+Discover
+
+
+
+
+Design
+
+
+
+
+Develop
+
+
+
+
+Distribute
+
+
+
+
+Support
+
+
+
+
+Account
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									Cancel
+								
+
+
+
+
+
+
+Only search within “”
+Quick Links
+
+
+5 Quick Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Design
+
+
+
+Open Menu
+
+
+Close Menu
+
+
+
+
+Overview
+
+
+Pathway
+
+
+What’s new
+
+
+Guidelines
+
+
+Resources
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Design sessions, documentation, and sample code — all in one place
+
+
+
+
+
+
+
+
+
+Apple Design Resources
+Design apps accurately and quickly using official Apple design templates, icon production templates, color guides, and more.
+
+
+
+
+
+
+
+
+iOS & iPadOS
+
+
+
+
+
+macOS
+
+
+
+
+
+tvOS
+
+
+
+
+
+watchOS
+
+
+
+
+
+visionOS
+
+
+
+
+
+Technologies
+
+
+
+
+
+Fonts
+
+
+
+
+
+SF Symbols
+
+
+
+
+
+Product Bezels
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+iOS and iPadOS
+
+
+
+
+
+iOS 18 and iPadOS 18
+
+Sketch Library
+
+
+
+
+
+
+Sketch
+Note: Sketch must be installed to downloadJanuary 21, 202542.1 MB
+
+
+
+
+ 
+
+Templates
+
+
+
+
+
+
+Figma
+June 26, 2024
+
+
+Sketch
+Feburary 4, 202541 MB
+
+
+
+
+ 
+
+Production Templates
+
+
+
+
+
+
+Sketch
+January 3, 20253.8 MB
+
+
+Figma
+November 15, 2024
+
+
+Photoshop
+January 3, 20255.5 MB
+
+
+
+
+
+
+
+iOS 16
+
+Templates
+
+
+
+
+
+
+Keynote
+January 2, 202335.7 MB
+
+
+
+
+
+
+
+
+
+macOS
+
+
+
+
+macOS Sequoia
+
+
+
+
+Sketch Library
+
+
+
+
+
+
+Sketch
+Note: Sketch must be installed to downloadJanuary 21, 202536.8 MB
+
+
+
+Templates
+
+
+
+
+
+
+Figma
+January 21, 2025
+
+
+Sketch
+January 21, 202521.8 MB
+
+
+
+Production Templates
+
+
+
+
+
+
+Sketch
+January 3, 20252.3 MB
+
+
+Photoshop
+January 3, 20256.5 MB
+
+
+
+
+
+
+
+
+
+tvOS
+
+
+
+
+tvOS 18
+
+
+Sketch Library
+
+
+
+
+
+
+Sketch
+Note: Sketch must be installed to downloadJanuary 3, 20258.3 MB
+
+
+
+Templates
+
+
+
+
+
+
+Sketch
+January 3, 202522.7 MB
+
+
+
+Production Templates
+
+
+
+
+
+
+Sketch
+January 3, 2025427 KB
+
+
+Photoshop
+January 3, 2025238 KB
+
+
+
+
+
+
+
+
+
+visionOS
+
+
+
+
+Library
+
+
+
+
+
+
+Figma
+January 21, 2025
+
+
+Sketch
+Note: Sketch must be installed to downloadJanuary 21, 202587.3 MB
+
+
+
+Templates
+
+
+
+
+
+
+Sketch
+January 21, 202538.1 MB
+
+
+
+
+
+
+
+
+
+watchOS
+
+
+
+
+watchOS 10
+
+
+Sketch Library
+
+
+
+
+
+
+Sketch
+Note: Sketch must be installed to downloadJanuary 3, 20254.5 MB
+
+
+
+Templates
+
+
+
+
+
+
+Sketch
+January 3, 20256 MB
+
+
+
+Production Templates
+
+
+
+
+
+
+Sketch
+January 3, 20251.2 MB
+
+
+
+
+
+
+
+
+
+Technologies
+
+
+
+
+Add Apple Watch Face
+
+
+
+
+
+
+PNG, PDF, SVG
+January 3, 20251 MB
+
+
+
+AirPlay
+
+
+
+
+
+
+PDF
+January 3, 20251 MB
+
+
+Design Guidelines
+
+
+
+App Clips Design Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20251.6 MB
+
+
+
+Apple Health Icon
+
+
+
+
+
+
+PNG
+January 3, 20251 MB
+
+
+Design Guidelines
+
+
+
+Apple Pay Design Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20251 MB
+
+
+
+ARKit Badge and Glyph
+
+
+
+
+
+
+PDF
+January 3, 20251 MB
+
+
+Design Guidelines
+
+
+
+Camera Control Design Template
+
+
+
+
+
+
+Sketch
+January 21, 20251 MB
+
+
+
+Game Center Icon and Glyphs
+
+
+
+
+
+
+PDF
+January 3, 20251 MB
+
+
+
+HomeKit Icon and Glyph
+
+
+
+
+
+
+PNG, PDF
+January 3, 20251 MB
+
+
+Design Guidelines
+
+
+
+Live Activities Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20251.7 MB
+
+
+
+Messages Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20251.9 MB
+
+
+
+Messages for Business Template
+
+
+
+
+
+
+Sketch
+January 21, 20252.5 MB
+
+
+
+Sign in with Apple Logo
+
+
+
+
+
+
+PNG, PDF, SVG
+January 3, 20251 MB
+
+
+Design Guidelines
+
+
+
+Sign in with Apple Buttons
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20251 MB
+
+
+
+Siri and App Shortcuts Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20257.6 MB
+
+
+
+Siri Icons
+
+
+
+
+
+
+PNG
+January 3, 20254.5 MB
+
+
+
+Tap to Pay on iPhone Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20251 MB
+
+
+
+TipKit Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20257.4 MB
+
+
+
+Wallet Template
+
+
+
+
+
+
+Figma
+October 9, 2024
+
+
+Sketch
+January 21, 20255.1 MB
+
+
+
+
+
+
+
+
+
+Fonts
+
+
+
+
+SF Pro
+
+
+
+
+
+
+Download SF Pro
+System font for iOS, iPad OS, macOS and tvOS.
+
+
+
+SF Compact
+
+
+
+
+
+
+Download SF Compact
+System font for watchOS, optimized for small sizes and narrow columns.
+
+
+
+SF Mono
+
+
+
+
+
+
+Download SF Mono
+Used in Xcode, enables alignment between rows and columns of text.
+
+
+
+New York
+
+
+
+
+
+
+Download New York
+Performs as a traditional reading face at small sizes and a graphic display face at larger sizes.
+
+
+
+SF Arabic
+
+
+
+
+
+
+Download SF Arabic
+Arabic system font on Apple platforms.
+
+
+
+SF Armenian
+
+
+
+
+
+
+Download SF Armenian
+Designed with proportions that have been adjusted for a better visual balance in multilingual typesetting.
+
+
+
+SF Georgian
+
+
+
+
+
+
+Download SF Georgian
+Supports modern Georgian, Mkhedruli, and Mtavruli uppercase forms.
+
+
+
+SF Hebrew
+
+
+
+
+
+
+Download SF Hebrew
+With full support of the Niqqud diacritical marks.
+
+
+
+
+
+
+
+
+
+SF Symbols
+
+
+SF Symbols is a library of over 6,000 symbols that are designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics editing tools to create custom symbols with shared design characteristics and accessibility features. SF Symbols 6 brings new and enhanced animations, updated annotation tools, and over 800 new symbols.
+
+
+
+
+Download SF Symbols 6
+September 27, 2024Requires macOS Ventura or later. (385.4 MB)
+
+
+
+Download SF Symbols 5.1
+January 16, 2024Requires macOS Monterey or later. (298 MB)
+
+
+
+
+
+
+
+
+
+
+
+
+Parallax image tools
+Use Parallax Previewer and Parallax Exporter Plug-In for Adobe Photoshop to deliver parallax visual effects that transform static images into dynamic and immersive experiences on tvOS and visionOS.
+
+
+
+
+Parallax Previewer App
+
+
+
+
+
+
+Download version 2 for macOS
+Requires macOS 13.5 or later.
+
+
+Download version 1 for macOS
+Requires macOS 10.10.5 or later.
+
+
+User Guide
+
+
+
+Parallax Exporter Plug-In for Adobe Photoshop
+
+
+
+
+
+
+Download for macOS
+Requires Adobe Photoshop 2023 (v24.1) or later and macOS 12.4.0 or later.
+
+
+Download for Windows
+Requires Adobe Photoshop 2023 (v24.1) or later and Microsoft Windows 10 64-bit (version 22H2) or later.
+
+
+
+
+
+
+
+
+
+Product Bezels
+When using product bezels in your marketing materials, be sure to review these Marketing Resources and Identity Guidelines.
+
+
+
+
+All Product Bezels
+
+
+
+
+
+
+Sketch
+Note: Sketch must be installed to downloadJanuary 3, 202574.2 MB
+
+
+
+Apple TV
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 202530.9 MB
+
+
+
+Apple Watch Ultra 2 (2024)
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 2025185.7 MB
+
+
+
+Apple Watch Series 10
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 2025663 MB
+
+
+
+iMac
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 202527.1 MB
+
+
+
+iPad
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 20254.3 MB
+
+
+
+iPad Air M2
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 202512.3 MB
+
+
+
+iPad mini
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 20254.1 MB
+
+
+
+iPad Pro M4
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 20257 MB
+
+
+
+iPhone 16
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 2025273 MB
+
+
+
+iPhone 15
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 2025241 MB
+
+
+
+iPhone 14
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 202534.8 MB
+
+
+
+MacBook Air (M3)
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 202514.9 MB
+
+
+
+MacBook Pro (M4)
+
+
+
+
+
+
+Photoshop, PNG
+January 3, 202524.1 MB
+
+
+
+iPhone and iPad for Keynote Live Video
+
+
+
+
+
+
+Keynote
+January 3, 20258.8 MB
+
+
+
+
+
+
+
+
+
+Badges and Logos
+Find badges and logos for Apple technologies, such as Apple Health, Apple Wallet, Apple Music, and Apple Pay, that can be used in your app’s marketing material.
+View Apple Badges and Logos
+
+
+
+
+
+
+
+
+
+
+
+
+
+Developer Footer
+
+Design
+Resources
+
+
+
+
+
+
+
+Platforms
+
+ Open Menu 
+ Close Menu 
+
+iOS
+iPadOS
+macOS
+tvOS
+visionOS
+watchOS
+
+
+
+
+
+Tools
+
+ Open Menu 
+ Close Menu 
+
+Swift
+SwiftUI
+Swift Playground
+TestFlight
+Xcode
+Xcode Cloud
+SF Symbols
+
+
+
+
+
+
+
+Topics & Technologies
+
+ Open Menu 
+ Close Menu 
+
+Accessibility
+Accessories
+App Extensions
+App Store
+Audio & Video
+Augmented Reality
+Design
+Distribution
+Education
+Fonts
+Games
+Health & Fitness
+In-App Purchase
+Localization
+Maps & Location
+Machine Learning
+Open Source
+Security
+Safari & Web
+
+
+
+
+
+
+
+Resources
+
+ Open Menu 
+ Close Menu 
+
+Documentation
+Tutorials
+Downloads
+Forums
+Videos
+
+
+
+
+
+Support
+
+ Open Menu 
+ Close Menu 
+
+Support Articles
+Contact Us
+Bug Reporting
+System Status
+
+
+
+
+
+Account
+
+ Open Menu 
+ Close Menu 
+
+Apple Developer
+App Store Connect
+Certificates, IDs, & Profiles
+Feedback Assistant
+
+
+
+
+
+
+
+Programs
+
+ Open Menu 
+ Close Menu 
+
+Apple Developer Program
+Apple Developer Enterprise Program
+App Store Small Business Program
+MFi Program
+News Partner Program
+Video Partner Program
+Security Bounty Program
+Security Research Device Program
+
+
+
+
+
+Events
+
+ Open Menu 
+ Close Menu 
+
+Meet with Apple
+Apple Developer Centers
+App Store Awards
+Apple Design Awards
+Apple Developer Academies
+WWDC
+
+
+
+
+
+
+
+
+			Get the Apple Developer app.
+		
+
+
+
+
+Light
+
+
+
+Dark
+
+
+
+Auto
+
+
+
+
+
+
+
+
+
+
+
+
+Copyright ©  2025 Apple Inc. All rights reserved.
+
+Terms of Use
+Privacy Policy
+Agreements and Guidelines
