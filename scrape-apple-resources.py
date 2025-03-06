@@ -6,6 +6,7 @@ import datetime
 import pytz
 from feedgenerator import Rss201rev2Feed
 import difflib
+import feedparser
 
 # Constants
 SCRAPE_BUCKET = 'scrape-bucket'
@@ -101,10 +102,12 @@ def check_for_changes():
     if current_content != previous_content:
         title = "CHANGES DETECTED: Apple Developer Resources"
         changes = get_changes(previous_content, current_content)
-        save_current_content(current_content)
     else:
         title = "NO CHANGES DETECTED: Apple Developer Resources"
         changes = "No changes detected in the latest scan."
+    
+    # Save current content regardless of changes
+    save_current_content(current_content)
     
     update_rss(title, changes)
     print(title)
