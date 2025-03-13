@@ -232,17 +232,6 @@ Resources
 
 
 
-
-Design sessions, documentation, and sample code — all in one place
-
-
-
-
-
-
-
-
-
 Apple Design Resources
 Design apps accurately and quickly using official Apple design templates, icon production templates, color guides, and more.
 
