@@ -322,7 +322,7 @@ Sketch Library
 
 
 Sketch
-Note: Sketch must be installed to downloadJanuary 21, 202542.1 MB
+May 27, 202562 MB
 
 
 
@@ -336,12 +336,12 @@ Templates
 
 
 
+Sketch
+May 27, 202528.6 MB
+
+
 Figma
 June 26, 2024
-
-
-Sketch
-Feburary 4, 202541 MB
 
 
 
