@@ -312,6 +312,24 @@ iOS and iPadOS
 
 
 
+iOS 26 and iPadOS 26
+
+Sketch Library
+
+
+
+
+
+
+Sketch
+June 9, 2025118.3 MB
+
+
+
+
+
+
+
 iOS 18 and iPadOS 18
 
 Sketch Library
@@ -393,6 +411,26 @@ January 2, 202335.7 MB
 
 
 macOS
+
+
+
+
+macOS Tahoe 26
+
+
+
+
+Sketch Library
+
+
+
+
+
+
+Sketch
+Note: Sketch must be installed to downloadJune 9, 2025106.5 MB
+
+
 
 
 
@@ -627,6 +665,22 @@ Design Guidelines
 
 
 
+App Icon Template
+
+
+
+
+
+
+Sketch
+June 9, 2025
+
+
+Photoshop, Illustrator
+June 9, 2025119.4 MB
+
+
+
 App Clips Design Template
 
 
@@ -689,7 +743,7 @@ Design Guidelines
 
 
 
-Camera Control Design Template
+Camera Control
 
 
 
@@ -698,6 +752,18 @@ Camera Control Design Template
 
 Sketch
 January 21, 20251 MB
+
+
+
+Games and Game Center
+
+
+
+
+
+
+PNG and PDF
+June 9, 202515.9 MB
 
 
 
@@ -1000,13 +1066,13 @@ SF Symbols 7 is a library of over 6,900 symbols designed to integrate seamlessl
 
 
 
+Download SF Symbols 7 beta
+June 9, 2025Requires macOS Ventura or later. (454 MB)
+
+
+
 Download SF Symbols 6
 September 27, 2024Requires macOS Ventura or later. (385.4 MB)
-
-
-
-Download SF Symbols 5.1
-January 16, 2024Requires macOS Monterey or later. (298 MB)
 
 
 
