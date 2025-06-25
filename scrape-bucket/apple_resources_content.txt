@@ -304,21 +304,12 @@ Product Bezels
 
 
 
-
-
 iOS and iPadOS
-
-
-
-
-
 iOS 26 and iPadOS 26
 
+
+
 Sketch Library
-
-
-
-
 
 
 Sketch
@@ -327,13 +318,8 @@ June 9, 2025118.3 MB
 
 
 
- 
 
 App Icon Template
-
-
-
-
 
 
 Sketch
@@ -347,15 +333,11 @@ June 9, 2025119.4 MB
 
 
 
-
-
 iOS 18 and iPadOS 18
 
+
+
 Sketch Library
-
-
-
-
 
 
 Sketch
@@ -364,13 +346,8 @@ May 27, 202562 MB
 
 
 
- 
 
 Templates
-
-
-
-
 
 
 Sketch
@@ -383,13 +360,8 @@ June 26, 2024
 
 
 
- 
 
 Production Templates
-
-
-
-
 
 
 Sketch
@@ -407,15 +379,11 @@ January 3, 20255.5 MB
 
 
 
-
-
 iOS 16
 
+
+
 Templates
-
-
-
-
 
 
 Keynote
@@ -428,22 +396,12 @@ January 2, 202335.7 MB
 
 
 
-
 macOS
-
-
-
-
 macOS Tahoe 26
 
 
 
-
 Sketch Library
-
-
-
-
 
 
 Sketch
@@ -453,17 +411,11 @@ Note: Sketch must be installed to downloadJune 9, 2025106.5 MB
 
 
 
-
 macOS Sequoia
 
 
 
-
 Sketch Library
-
-
-
-
 
 
 Sketch
@@ -471,11 +423,9 @@ Note: Sketch must be installed to downloadJanuary 21, 202536.8 MB
 
 
 
+
+
 Templates
-
-
-
-
 
 
 Figma
@@ -487,11 +437,9 @@ January 21, 202521.8 MB
 
 
 
+
+
 Production Templates
-
-
-
-
 
 
 Sketch
@@ -508,20 +456,12 @@ January 3, 20256.5 MB
 
 
 
-
 tvOS
-
-
-
-
 tvOS 18
 
 
+
 Sketch Library
-
-
-
-
 
 
 Sketch
@@ -529,11 +469,9 @@ Note: Sketch must be installed to downloadJanuary 3, 20258.3 MB
 
 
 
+
+
 Templates
-
-
-
-
 
 
 Sketch
@@ -541,11 +479,9 @@ January 3, 202522.7 MB
 
 
 
+
+
 Production Templates
-
-
-
-
 
 
 Sketch
@@ -562,17 +498,11 @@ January 3, 2025238 KB
 
 
 
-
 visionOS
 
 
 
-
 Library
-
-
-
-
 
 
 Figma
@@ -584,11 +514,9 @@ Note: Sketch must be installed to downloadJanuary 21, 202587.3 MB
 
 
 
+
+
 Templates
-
-
-
-
 
 
 Sketch
@@ -601,20 +529,12 @@ January 21, 202538.1 MB
 
 
 
-
 watchOS
-
-
-
-
 watchOS 10
 
 
+
 Sketch Library
-
-
-
-
 
 
 Sketch
@@ -622,11 +542,9 @@ Note: Sketch must be installed to downloadJanuary 3, 20254.5 MB
 
 
 
+
+
 Templates
-
-
-
-
 
 
 Sketch
@@ -634,11 +552,9 @@ January 3, 20256 MB
 
 
 
+
+
 Production Templates
-
-
-
-
 
 
 Sketch
@@ -651,17 +567,11 @@ January 3, 20251.2 MB
 
 
 
-
 Technologies
 
 
 
-
 Add Apple Watch Face
-
-
-
-
 
 
 PNG, PDF, SVG
@@ -669,11 +579,9 @@ January 3, 20251 MB
 
 
 
+
+
 AirPlay
-
-
-
-
 
 
 PDF
@@ -684,11 +592,9 @@ Design Guidelines
 
 
 
+
+
 App Clips Design Template
-
-
-
-
 
 
 Figma
@@ -700,11 +606,9 @@ January 21, 20251.6 MB
 
 
 
+
+
 Apple Health Icon
-
-
-
-
 
 
 PNG
@@ -715,11 +619,9 @@ Design Guidelines
 
 
 
+
+
 Apple Pay Design Template
-
-
-
-
 
 
 Figma
@@ -731,11 +633,9 @@ January 21, 20251 MB
 
 
 
+
+
 ARKit Badge and Glyph
-
-
-
-
 
 
 PDF
@@ -746,11 +646,9 @@ Design Guidelines
 
 
 
+
+
 Camera Control
-
-
-
-
 
 
 Sketch
@@ -758,11 +656,9 @@ January 21, 20251 MB
 
 
 
+
+
 Games and Game Center
-
-
-
-
 
 
 PNG, PDF
@@ -770,11 +666,9 @@ June 9, 202515.9 MB
 
 
 
+
+
 Game Center Icon and Glyphs
-
-
-
-
 
 
 PDF
@@ -782,11 +676,9 @@ January 3, 20251 MB
 
 
 
+
+
 HomeKit Icon and Glyph
-
-
-
-
 
 
 PNG, PDF
@@ -797,11 +689,9 @@ Design Guidelines
 
 
 
+
+
 Live Activities Template
-
-
-
-
 
 
 Figma
@@ -813,11 +703,9 @@ January 21, 20251.7 MB
 
 
 
+
+
 Messages Template
-
-
-
-
 
 
 Figma
@@ -829,11 +717,9 @@ January 21, 20251.9 MB
 
 
 
+
+
 Messages for Business Template
-
-
-
-
 
 
 Sketch
@@ -841,11 +727,9 @@ January 21, 20252.5 MB
 
 
 
+
+
 Sign in with Apple Logo
-
-
-
-
 
 
 PNG, PDF, SVG
@@ -856,11 +740,9 @@ Design Guidelines
 
 
 
+
+
 Sign in with Apple Buttons
-
-
-
-
 
 
 Figma
@@ -872,11 +754,9 @@ January 21, 20251 MB
 
 
 
+
+
 Siri and App Shortcuts Template
-
-
-
-
 
 
 Figma
@@ -888,11 +768,9 @@ January 21, 20257.6 MB
 
 
 
+
+
 Siri Icons
-
-
-
-
 
 
 PNG
@@ -900,11 +778,9 @@ January 3, 20254.5 MB
 
 
 
+
+
 Tap to Pay on iPhone Template
-
-
-
-
 
 
 Figma
@@ -916,11 +792,9 @@ January 21, 20251 MB
 
 
 
+
+
 TipKit Template
-
-
-
-
 
 
 Figma
@@ -932,11 +806,9 @@ January 21, 20257.4 MB
 
 
 
+
+
 Wallet Template
-
-
-
-
 
 
 Figma
@@ -953,17 +825,11 @@ January 21, 20255.1 MB
 
 
 
-
 Fonts
 
 
 
-
 SF Pro
-
-
-
-
 
 
 Download SF Pro
@@ -971,11 +837,9 @@ System font for iOS, iPad OS, macOS and tvOS.
 
 
 
+
+
 SF Compact
-
-
-
-
 
 
 Download SF Compact
@@ -983,11 +847,9 @@ System font for watchOS, optimized for small sizes and narrow columns.
 
 
 
+
+
 SF Mono
-
-
-
-
 
 
 Download SF Mono
@@ -995,11 +857,9 @@ Used in Xcode, enables alignment between rows and columns of text.
 
 
 
+
+
 New York
-
-
-
-
 
 
 Download New York
@@ -1007,11 +867,9 @@ Performs as a traditional reading face at small sizes and a graphic display face
 
 
 
+
+
 SF Arabic
-
-
-
-
 
 
 Download SF Arabic
@@ -1019,11 +877,9 @@ Arabic system font on Apple platforms.
 
 
 
+
+
 SF Armenian
-
-
-
-
 
 
 Download SF Armenian
@@ -1031,11 +887,9 @@ Designed with proportions that have been adjusted for a better visual balance in
 
 
 
+
+
 SF Georgian
-
-
-
-
 
 
 Download SF Georgian
@@ -1043,11 +897,9 @@ Supports modern Georgian, Mkhedruli, and Mtavruli uppercase forms.
 
 
 
+
+
 SF Hebrew
-
-
-
-
 
 
 Download SF Hebrew
@@ -1060,17 +912,19 @@ With full support of the Niqqud diacritical marks.
 
 
 
-
 SF Symbols
-
-
 SF Symbols 7 is a library of over 6,900 symbols designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics tools to create custom symbols with shared design characteristics and accessibility features. SF Symbols 7 introduces Draw animations and variable rendering, enhanced Magic Replace, gradients, and hundreds of new symbols.
+
+
+
 
 
 
 
 Download SF Symbols 7 beta
 June 9, 2025Requires macOS Ventura or later. (454 MB)
+
+
 
 
 
@@ -1087,18 +941,12 @@ September 27, 2024Requires macOS Ventura or later. (385.4 MB)
 
 
 
-
 Parallax image tools
 Use Parallax Previewer and Parallax Exporter Plug-In for Adobe Photoshop to deliver parallax visual effects that transform static images into dynamic and immersive experiences on tvOS and visionOS.
 
 
 
-
 Parallax Previewer App
-
-
-
-
 
 
 Download version 2 for macOS
@@ -1113,11 +961,9 @@ User Guide
 
 
 
+
+
 Parallax Exporter Plug-In for Adobe Photoshop
-
-
-
-
 
 
 Download for macOS
@@ -1134,18 +980,12 @@ Requires Adobe Photoshop 2023 (v24.1) or later and Microsoft Windows 10 64-bit (
 
 
 
-
 Product Bezels
 When using product bezels in your marketing materials, be sure to review these Marketing Resources and Identity Guidelines.
 
 
 
-
 All Product Bezels
-
-
-
-
 
 
 Sketch
@@ -1153,11 +993,9 @@ Note: Sketch must be installed to downloadJanuary 3, 202574.2 MB
 
 
 
+
+
 Apple TV
-
-
-
-
 
 
 Photoshop, PNG
@@ -1165,11 +1003,9 @@ January 3, 202530.9 MB
 
 
 
+
+
 Apple Watch Ultra 2 (2024)
-
-
-
-
 
 
 Photoshop, PNG
@@ -1177,11 +1013,9 @@ January 3, 2025185.7 MB
 
 
 
+
+
 Apple Watch Series 10
-
-
-
-
 
 
 Photoshop, PNG
@@ -1189,11 +1023,9 @@ January 3, 2025663 MB
 
 
 
+
+
 iMac
-
-
-
-
 
 
 Photoshop, PNG
@@ -1201,11 +1033,9 @@ January 3, 202527.1 MB
 
 
 
+
+
 iPad
-
-
-
-
 
 
 Photoshop, PNG
@@ -1213,11 +1043,9 @@ January 3, 20254.3 MB
 
 
 
+
+
 iPad Air M2
-
-
-
-
 
 
 Photoshop, PNG
@@ -1225,11 +1053,9 @@ January 3, 202512.3 MB
 
 
 
+
+
 iPad mini
-
-
-
-
 
 
 Photoshop, PNG
@@ -1237,11 +1063,9 @@ January 3, 20254.1 MB
 
 
 
+
+
 iPad Pro M4
-
-
-
-
 
 
 Photoshop, PNG
@@ -1249,11 +1073,9 @@ January 3, 20257 MB
 
 
 
+
+
 iPhone 16
-
-
-
-
 
 
 Photoshop, PNG
@@ -1261,11 +1083,9 @@ January 3, 2025273 MB
 
 
 
+
+
 iPhone 15
-
-
-
-
 
 
 Photoshop, PNG
@@ -1273,11 +1093,9 @@ January 3, 2025241 MB
 
 
 
+
+
 iPhone 14
-
-
-
-
 
 
 Photoshop, PNG
@@ -1285,11 +1103,9 @@ January 3, 202534.8 MB
 
 
 
+
+
 MacBook Air (M3)
-
-
-
-
 
 
 Photoshop, PNG
@@ -1297,11 +1113,9 @@ January 3, 202514.9 MB
 
 
 
+
+
 MacBook Pro (M4)
-
-
-
-
 
 
 Photoshop, PNG
@@ -1309,15 +1123,14 @@ January 3, 202524.1 MB
 
 
 
+
+
 iPhone and iPad for Keynote Live Video
-
-
-
-
 
 
 Keynote
 January 3, 20258.8 MB
+
 
 
 
