@@ -284,7 +284,7 @@ Fonts
 
 
 
-SF Symbols
+Tools
 
 
 
@@ -309,11 +309,15 @@ iOS 26 and iPadOS 26
 
 
 
-Sketch Library
+UI Kit
+
+
+Figma
+August 18, 2025
 
 
 Sketch
-June 9, 2025118.3 MB
+August 18, 2025
 
 
 
@@ -330,6 +334,10 @@ Photoshop, Illustrator
 June 9, 2025119.4 MB
 
 
+Figma
+July 17, 2025
+
+
 
 
 
@@ -337,7 +345,7 @@ iOS 18 and iPadOS 18
 
 
 
-Sketch Library
+UI Kit
 
 
 Sketch
@@ -354,10 +362,6 @@ Sketch
 May 27, 202528.6 MB
 
 
-Figma
-June 26, 2024
-
-
 
 
 
@@ -368,12 +372,12 @@ Sketch
 January 3, 20253.8 MB
 
 
-Figma
-November 15, 2024
-
-
 Photoshop
 January 3, 20255.5 MB
+
+
+Figma
+November 15, 2024
 
 
 
@@ -397,15 +401,15 @@ January 2, 202335.7 MB
 
 
 macOS
-macOS Tahoe 26
+macOS 26
 
 
 
-Sketch Library
+UI Kit
 
 
 Sketch
-Note: Sketch must be installed to downloadJune 9, 2025106.5 MB
+June 9, 2025
 
 
 
@@ -415,21 +419,21 @@ macOS Sequoia
 
 
 
-Sketch Library
+UI Kit
 
 
 Sketch
 Note: Sketch must be installed to downloadJanuary 21, 202536.8 MB
 
 
+Figma
+January 21, 2025
+
+
 
 
 
 Templates
-
-
-Figma
-January 21, 2025
 
 
 Sketch
@@ -461,7 +465,7 @@ tvOS 18
 
 
 
-Sketch Library
+UI Kit
 
 
 Sketch
@@ -499,18 +503,37 @@ January 3, 2025238 KB
 
 
 visionOS
+visionOS 26
 
 
 
-Library
+UI Kit
 
 
 Figma
-January 21, 2025
+August 20, 2025
+
+
+Sketch
+July 30, 2025
+
+
+
+
+
+visionOS 2
+
+
+
+UI Kit
 
 
 Sketch
 Note: Sketch must be installed to downloadJanuary 21, 202587.3 MB
+
+
+Figma
+January 21, 2025
 
 
 
@@ -530,11 +553,29 @@ January 21, 202538.1 MB
 
 
 watchOS
+watchOS 26
+
+
+
+UI Kit
+
+
+Figma
+August 20, 2025
+
+
+Sketch
+July 30, 2025
+
+
+
+
+
 watchOS 10
 
 
 
-Sketch Library
+UI Kit
 
 
 Sketch
@@ -833,7 +874,7 @@ SF Pro
 
 
 Download SF Pro
-System font for iOS, iPad OS, macOS and tvOS.
+System font for iOS, iPadOS, macOS and tvOS.
 
 
 
@@ -914,6 +955,7 @@ With full support of the Niqqud diacritical marks.
 
 SF Symbols
 SF Symbols 7 is a library of over 6,900 symbols designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics tools to create custom symbols with shared design characteristics and accessibility features. SF Symbols 7 introduces Draw animations and variable rendering, enhanced Magic Replace, gradients, and hundreds of new symbols.
+Learn more
 
 
 
@@ -930,6 +972,36 @@ June 9, 2025Requires macOS Ventura or later. (454 MB)
 
 Download SF Symbols 6
 September 27, 2024Requires macOS Ventura or later. (385.4 MB)
+
+
+
+
+
+
+
+
+
+
+
+Icon Composer
+Icon Composer lets you create layered icons out of Liquid Glass from a single design for iPhone, iPad, Mac, and Apple Watch. With a new multi-layer icon format, you can easily adjust Liquid Glass properties, preview with dynamic lighting effects, and annotate across appearance modes. Icon Composer is designed to work seamlessly with Xcode, and also provides the option to export a flattened version of your icon for marketing and communication needs.
+Learn more
+
+
+
+
+
+
+
+Download Icon Composer beta
+June 9, 2025Requires macOS Sequoia or later. (22.3 MB)
+
+
+
+
+
+
+
 
 
 
@@ -1142,7 +1214,7 @@ January 3, 20258.8 MB
 
 Badges and Logos
 Find badges and logos for Apple technologies, such as Apple Health, Apple Wallet, Apple Music, and Apple Pay, that can be used in your app’s marketing material.
-View Apple Badges and Logos
+View Apple Badges and Logos
 
 
 
