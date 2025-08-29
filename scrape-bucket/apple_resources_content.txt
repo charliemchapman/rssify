@@ -408,8 +408,12 @@ macOS 26
 UI Kit
 
 
+Figma
+August 29, 2025
+
+
 Sketch
-June 9, 2025
+August 29, 2025
 
 
 
@@ -1025,7 +1029,7 @@ Download version 2 for macOS
 Requires macOS 13.5 or later.
 
 
-Download version 1 for macOS
+Download version 1 for macOS
 Requires macOS 10.10.5 or later.
 
 
