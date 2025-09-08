@@ -1270,6 +1270,7 @@ Swift Playground
 TestFlight
 Xcode
 Xcode Cloud
+Icon Composer
 SF Symbols
 
 
@@ -1285,10 +1286,11 @@ Topics & Technologies
 
 Accessibility
 Accessories
-App Extensions
+Apple Intelligence
 App Store
 Audio & Video
 Augmented Reality
+Business
 Design
 Distribution
 Education
@@ -1298,7 +1300,7 @@ Health & Fitness
 In-App Purchase
 Localization
 Maps & Location
-Machine Learning
+Machine Learning & AI
 Open Source
 Security
 Safari & Web
@@ -1315,6 +1317,7 @@ Resources
  Close Menu 
 
 Documentation
+Sample Code
 Tutorials
 Downloads
 Forums
