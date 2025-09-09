@@ -967,8 +967,8 @@ Learn more
 
 
 
-Download SF Symbols 7 beta
-June 9, 2025Requires macOS Ventura or later. (454 MB)
+Download SF Symbols 7
+September 9, 2025Requires macOS Ventura or later. (483 MB)
 
 
 
@@ -976,6 +976,11 @@ June 9, 2025Requires macOS Ventura or later. (454 MB)
 
 Download SF Symbols 6
 September 27, 2024Requires macOS Ventura or later. (385.4 MB)
+
+
+
+
+
 
 
 
@@ -997,8 +1002,8 @@ Learn more
 
 
 
-Download Icon Composer beta
-June 9, 2025Requires macOS Sequoia or later. (22.3 MB)
+Download Icon Composer
+September 9, 2025Requires macOS Sequoia or later. (15.5 MB)
 
 
 
