@@ -506,6 +506,28 @@ January 3, 2025238 KB
 
 
 
+watchOS
+watchOS 26
+
+
+
+UI Kit
+
+
+Figma
+August 20, 2025
+
+
+Sketch
+July 30, 2025
+
+
+
+
+
+
+
+
 visionOS
 visionOS 26
 
@@ -548,62 +570,6 @@ Templates
 
 Sketch
 January 21, 202538.1 MB
-
-
-
-
-
-
-
-
-watchOS
-watchOS 26
-
-
-
-UI Kit
-
-
-Figma
-August 20, 2025
-
-
-Sketch
-July 30, 2025
-
-
-
-
-
-watchOS 10
-
-
-
-UI Kit
-
-
-Sketch
-Note: Sketch must be installed to downloadJanuary 3, 20254.5 MB
-
-
-
-
-
-Templates
-
-
-Sketch
-January 3, 20256 MB
-
-
-
-
-
-Production Templates
-
-
-Sketch
-January 3, 20251.2 MB
 
 
 
