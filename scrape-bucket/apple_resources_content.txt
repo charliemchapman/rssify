@@ -934,7 +934,7 @@ Learn more
 
 
 Download SF Symbols 7
-September 9, 2025Requires macOS Ventura or later. (483 MB)
+September 9, 2025Requires macOS Sonoma or later. (483 MB)
 
 
 
