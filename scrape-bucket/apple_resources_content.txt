@@ -969,7 +969,7 @@ Learn more
 
 
 Download Icon Composer
-September 9, 2025Requires macOS Sequoia or later. (15.5 MB)
+October 29, 2025Requires macOS Sequoia or later. (15.5 MB)
 
 
 
@@ -1267,7 +1267,7 @@ Topics & Technologies
 
 Accessibility
 Accessories
-
+Apple Intelligence
 App Store
 Audio & Video
 Augmented Reality
@@ -1347,6 +1347,7 @@ Apple Developer Program
 Apple Developer Enterprise Program
 App Store Small Business Program
 MFi Program
+Mini Apps Partner Program
 News Partner Program
 Video Partner Program
 Security Bounty Program
