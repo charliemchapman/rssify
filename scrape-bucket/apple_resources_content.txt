@@ -313,11 +313,11 @@ UI Kit
 
 
 Figma
-August 29, 2025
+November 7, 2025
 
 
 Sketch
-September 4, 2025
+November 21, 2025
 
 
 
@@ -613,7 +613,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20251.6 MB
+November 21, 2025
 
 
 
@@ -640,7 +640,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20251 MB
+November 21, 2025
 
 
 
@@ -663,7 +663,7 @@ Camera Control
 
 
 Sketch
-January 21, 20251 MB
+November 21, 2025
 
 
 
@@ -674,16 +674,6 @@ Games and Game Center
 
 PNG, PDF
 June 9, 202515.9 MB
-
-
-
-
-
-Game Center Icon and Glyphs
-
-
-PDF
-January 3, 20251 MB
 
 
 
@@ -710,7 +700,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20251.7 MB
+November 21, 2025
 
 
 
@@ -724,17 +714,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20251.9 MB
-
-
-
-
-
-Messages for Business Template
-
-
-Sketch
-January 21, 20252.5 MB
+November 21, 2025
 
 
 
@@ -761,7 +741,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20251 MB
+November 21, 2025
 
 
 
@@ -775,7 +755,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20257.6 MB
+November 21, 2025
 
 
 
@@ -799,7 +779,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20251 MB
+November 21, 2025
 
 
 
@@ -813,7 +793,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20257.4 MB
+November 21, 2025
 
 
 
@@ -827,7 +807,7 @@ October 9, 2024
 
 
 Sketch
-January 21, 20255.1 MB
+November 21, 2025
 
 
 
@@ -1152,17 +1132,7 @@ January 3, 2025273 MB
 
 
 
-iPhone 15
-
-
-Photoshop, PNG
-January 3, 2025241 MB
-
-
-
-
-
-MacBook Air (M3)
+MacBook Air M3
 
 
 Photoshop, PNG
@@ -1172,7 +1142,7 @@ January 3, 202514.9 MB
 
 
 
-MacBook Pro (M4)
+MacBook Pro M4
 
 
 Photoshop, PNG
