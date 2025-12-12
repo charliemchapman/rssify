@@ -949,7 +949,7 @@ Learn more
 
 
 Download Icon Composer
-October 29, 2025Requires macOS Sequoia or later. (15.5 MB)
+Requires macOS Sequoia or later.
 
 
 
