@@ -313,11 +313,9 @@ UI Kit
 
 
 Figma
-December 12, 2025
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -327,15 +325,12 @@ App Icon Template
 
 
 Sketch
-June 9, 2025
 
 
 Photoshop, Illustrator
-June 9, 2025119.4 MB
 
 
 Figma
-July 17, 2025
 
 
 
@@ -349,7 +344,6 @@ UI Kit
 
 
 Sketch
-May 27, 202562 MB
 
 
 
@@ -359,7 +353,6 @@ Templates
 
 
 Sketch
-May 27, 202528.6 MB
 
 
 
@@ -369,15 +362,12 @@ Production Templates
 
 
 Sketch
-January 3, 20253.8 MB
 
 
 Photoshop
-January 3, 20255.5 MB
 
 
 Figma
-November 15, 2024
 
 
 
@@ -391,7 +381,6 @@ Templates
 
 
 Keynote
-January 2, 202335.7 MB
 
 
 
@@ -409,11 +398,9 @@ UI Kit
 
 
 Figma
-September 26, 2025
 
 
 Sketch
-September 26, 2025
 
 
 
@@ -427,11 +414,10 @@ UI Kit
 
 
 Sketch
-Note: Sketch must be installed to downloadJanuary 21, 202536.8 MB
+Note: Sketch must be installed to download
 
 
 Figma
-January 21, 2025
 
 
 
@@ -441,7 +427,6 @@ Templates
 
 
 Sketch
-January 21, 202521.8 MB
 
 
 
@@ -451,11 +436,9 @@ Production Templates
 
 
 Sketch
-January 3, 20252.3 MB
 
 
 Photoshop
-January 3, 20256.5 MB
 
 
 
@@ -473,7 +456,7 @@ UI Kit
 
 
 Sketch
-Note: Sketch must be installed to downloadJanuary 3, 20258.3 MB
+Note: Sketch must be installed to download
 
 
 
@@ -483,7 +466,6 @@ Templates
 
 
 Sketch
-January 3, 202522.7 MB
 
 
 
@@ -493,11 +475,11 @@ Production Templates
 
 
 Sketch
-January 3, 2025427 KB
+427 KB
 
 
 Photoshop
-January 3, 2025238 KB
+238 KB
 
 
 
@@ -515,11 +497,9 @@ UI Kit
 
 
 Figma
-August 20, 2025
 
 
 Sketch
-July 30, 2025
 
 
 
@@ -537,11 +517,9 @@ UI Kit
 
 
 Figma
-August 20, 2025
 
 
 Sketch
-July 30, 2025
 
 
 
@@ -555,11 +533,10 @@ UI Kit
 
 
 Sketch
-Note: Sketch must be installed to downloadJanuary 21, 202587.3 MB
+Note: Sketch must be installed to download
 
 
 Figma
-January 21, 2025
 
 
 
@@ -569,7 +546,6 @@ Templates
 
 
 Sketch
-January 21, 202538.1 MB
 
 
 
@@ -586,7 +562,6 @@ Add Apple Watch Face
 
 
 PNG, PDF, SVG
-January 3, 20251 MB
 
 
 
@@ -596,7 +571,6 @@ AirPlay
 
 
 PDF
-January 3, 20251 MB
 
 
 Design Guidelines
@@ -609,11 +583,9 @@ App Clips Design Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -623,7 +595,6 @@ Apple Health Icon
 
 
 PNG
-January 3, 20251 MB
 
 
 Design Guidelines
@@ -636,11 +607,9 @@ Apple Pay Design Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -650,7 +619,6 @@ ARKit Badge and Glyph
 
 
 PDF
-January 3, 20251 MB
 
 
 Design Guidelines
@@ -663,7 +631,6 @@ Camera Control
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -673,7 +640,6 @@ Games and Game Center
 
 
 PNG, PDF
-June 9, 202515.9 MB
 
 
 
@@ -683,7 +649,6 @@ HomeKit Icon and Glyph
 
 
 PNG, PDF
-January 3, 20251 MB
 
 
 Design Guidelines
@@ -696,11 +661,9 @@ Live Activities Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -710,11 +673,9 @@ Messages Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -724,7 +685,6 @@ Sign in with Apple Logo
 
 
 PNG, PDF, SVG
-January 3, 20251 MB
 
 
 Design Guidelines
@@ -737,11 +697,9 @@ Sign in with Apple Buttons
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -751,11 +709,9 @@ Siri and App Shortcuts Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -765,7 +721,6 @@ Siri Icons
 
 
 PNG
-January 3, 20254.5 MB
 
 
 
@@ -775,11 +730,9 @@ Tap to Pay on iPhone Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -789,11 +742,9 @@ TipKit Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -803,11 +754,9 @@ Wallet Template
 
 
 Figma
-October 9, 2024
 
 
 Sketch
-November 21, 2025
 
 
 
@@ -914,14 +863,14 @@ Learn more
 
 
 Download SF Symbols 7
-September 9, 2025Requires macOS Sonoma or later. (483 MB)
+Requires macOS Sonoma or later. (483 MB)
 
 
 
 
 
 Download SF Symbols 6
-September 27, 2024Requires macOS Ventura or later. (385.4 MB)
+Requires macOS Ventura or later. (385.4 MB)
 
 
 
@@ -1016,7 +965,7 @@ All Product Bezels
 
 
 Sketch
-Note: Sketch must be installed to downloadJanuary 3, 202574.2 MB
+Note: Sketch must be installed to download
 
 
 
@@ -1026,7 +975,6 @@ Apple TV
 
 
 Photoshop, PNG
-January 3, 202530.9 MB
 
 
 
@@ -1036,7 +984,6 @@ Apple Watch Ultra 3 (2025)
 
 
 Photoshop, PNG
-September 12, 2025329 MB
 
 
 
@@ -1046,7 +993,6 @@ Apple Watch Ultra 2 (2024)
 
 
 Photoshop, PNG
-January 3, 2025185.7 MB
 
 
 
@@ -1056,7 +1002,6 @@ Apple Watch Series 11
 
 
 Photoshop, PNG
-September 12, 2025358 MB
 
 
 
@@ -1066,7 +1011,6 @@ iMac
 
 
 Photoshop, PNG
-January 3, 202527.1 MB
 
 
 
@@ -1076,7 +1020,6 @@ iPad
 
 
 Photoshop, PNG
-January 3, 20254.3 MB
 
 
 
@@ -1086,7 +1029,6 @@ iPad Air M2
 
 
 Photoshop, PNG
-January 3, 202512.3 MB
 
 
 
@@ -1096,7 +1038,6 @@ iPad mini
 
 
 Photoshop, PNG
-January 3, 20254.1 MB
 
 
 
@@ -1106,7 +1047,6 @@ iPad Pro M4
 
 
 Photoshop, PNG
-January 3, 20257 MB
 
 
 
@@ -1116,7 +1056,6 @@ iPhone 17
 
 
 Photoshop, PNG
-September 12, 2025265 MB
 
 
 
@@ -1126,7 +1065,6 @@ iPhone 16
 
 
 Photoshop, PNG
-January 3, 2025273 MB
 
 
 
@@ -1136,7 +1074,6 @@ MacBook Air M3
 
 
 Photoshop, PNG
-January 3, 202514.9 MB
 
 
 
@@ -1146,7 +1083,6 @@ MacBook Pro M4
 
 
 Photoshop, PNG
-January 3, 202524.1 MB
 
 
 
@@ -1156,7 +1092,6 @@ iPhone and iPad for Keynote Live Video
 
 
 Keynote
-January 3, 20258.8 MB
 
 
 
