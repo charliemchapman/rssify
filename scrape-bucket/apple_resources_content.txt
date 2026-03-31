@@ -28,7 +28,6 @@ Apple Design Resources - Apple Developer
 
 
 
-
 View in English
 
 
@@ -45,21 +44,6 @@ View in English
 
 
 
-
-
-
-
-
-
-
-Global Nav Open Menu
-
-
-Global Nav Close Menu
-
-
-
-
 Apple Developer
 
 
@@ -71,11 +55,7 @@ Apple Developer
 
 
 
-Search
-
-
-
-Cancel
+Get Started
 
 
 
@@ -84,32 +64,343 @@ Cancel
 
 
 
-Apple Developer
 
 
 
 
-News
 
 
 
 
-Discover
 
 
 
+
+
+
+
+
+
+
+
+Explore Get Started
+
+Overview
+Learn
+Apple Developer Program
+
+
+
+Stay Updated
+
+Latest News
+Hello Developer
+
+
+
+
+
+
+
+
+
+
+
+Platforms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore Platforms
+
+Apple Platforms
+iOS
+iPadOS
+macOS
+tvOS
+visionOS
+watchOS
+App Store
+
+
+
+
+Featured
 
 Design
+Distribution
+Games
+Accessories
+Web
+Home
+CarPlay
 
 
 
 
-Develop
 
 
 
 
-Distribute
+
+
+
+Technologies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore Technologies
+
+Overview
+Xcode
+Swift
+SwiftUI
+
+
+
+
+Featured
+
+Accessibility
+App Intents
+Apple Intelligence
+Games
+Machine Learning & AI
+Security
+Xcode Cloud
+
+
+
+
+
+
+
+
+
+
+
+Community
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore Community
+
+Overview
+Meet with Apple events
+Community-driven events
+Developer Forums
+Open Source
+
+
+
+
+Featured
+
+WWDC
+Swift Student Challenge
+Developer Stories
+App Store Awards
+Apple Design Awards
+Apple Developer Centers
+
+
+
+
+
+
+
+
+
+
+
+Documentation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore Documentation
+
+Documentation Library
+Technology Overviews
+Sample Code
+Human Interface Guidelines
+Videos
+
+
+
+
+Release Notes
+
+Featured Updates
+iOS
+iPadOS
+macOS
+watchOS
+visionOS
+tvOS
+Xcode
+
+
+
+
+
+
+
+
+
+
+
+Downloads
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Explore Downloads
+
+All Downloads
+Operating Systems
+Applications
+Design Resources
+
+
+
+
+Featured
+
+Xcode
+TestFlight
+Fonts
+SF Symbols
+Icon Composer
+
+
+
+
+
+
+
 
 
 
@@ -119,7 +410,6 @@ Support
 
 
 
-Account
 
 
 
@@ -141,19 +431,104 @@ Account
 
 
 
-									Cancel
-								
+
+
+
+Explore Support
+
+Overview
+Help Guides
+Developer Forums
+Feedback Assistant
+Contact Us
+
+
+
+
+Featured
+
+Account Help
+App Review Guidelines
+App Store Connect Help
+Upcoming Requirements
+Agreements and Guidelines
+System Status
 
 
 
 
 
 
-Only search within “”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Quick Links
 
 
-5 Quick Links
+
+
+
+
+
+
+
+
+
+
+
+
+
+Events
 
 
 
@@ -170,6 +545,101 @@ Quick Links
 
 
 
+News
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Forums
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Sample Code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Videos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
@@ -863,14 +1333,14 @@ Learn more
 
 
 Download SF Symbols 7
-Requires macOS Sonoma or later. (483 MB)
+Requires macOS Sonoma or later.
 
 
 
 
 
 Download SF Symbols 6
-Requires macOS Ventura or later. (385.4 MB)
+Requires macOS Ventura or later.
 
 
 
@@ -1070,7 +1540,7 @@ Photoshop, PNG
 
 
 
-MacBook Air M3
+MacBook Air M5
 
 
 Photoshop, PNG
@@ -1079,7 +1549,16 @@ Photoshop, PNG
 
 
 
-MacBook Pro M4
+MacBook Pro M5
+
+
+Photoshop, PNG
+
+
+
+
+
+MacBook Neo
 
 
 Photoshop, PNG
@@ -1140,6 +1619,7 @@ macOS
 tvOS
 visionOS
 watchOS
+App Store
 
 
 
@@ -1165,7 +1645,7 @@ SF Symbols
 
 
 
-Topics & Technologies
+Technologies
 
  Open Menu 
  Close Menu 
@@ -1173,21 +1653,18 @@ Topics & Technologies
 Accessibility
 Accessories
 Apple Intelligence
-App Store
 Audio & Video
 Augmented Reality
 Business
 Design
 Distribution
 Education
-Fonts
 Games
 Health & Fitness
 In-App Purchase
 Localization
 Maps & Location
 Machine Learning & AI
-Open Source
 Security
 Safari & Web
 
@@ -1203,10 +1680,8 @@ Resources
  Close Menu 
 
 Documentation
-Sample Code
-Tutorials
 Downloads
-Forums
+Sample Code
 Videos
 
 
@@ -1218,9 +1693,10 @@ Support
  Open Menu 
  Close Menu 
 
-Support Articles
+Help Guides & Articles
 Contact Us
-Bug Reporting
+Forums
+Feedback & Bug Reporting
 System Status
 
 
@@ -1281,7 +1757,7 @@ WWDC
 
 
 
-			Get the Apple Developer app.
+			Read the latest news Get the Apple Developer app.
 		
 
 
