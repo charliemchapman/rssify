@@ -1431,16 +1431,6 @@ When using product bezels in your marketing materials, be sure to review these M
 
 
 
-All Product Bezels
-
-
-Sketch
-Note: Sketch must be installed to download
-
-
-
-
-
 Apple TV
 
 
@@ -1495,7 +1485,7 @@ Photoshop, PNG
 
 
 
-iPad
+iPad (A16)
 
 
 Photoshop, PNG
@@ -1504,7 +1494,7 @@ Photoshop, PNG
 
 
 
-iPad Air M2
+iPad Air (M4)
 
 
 Photoshop, PNG
@@ -1513,7 +1503,7 @@ Photoshop, PNG
 
 
 
-iPad mini
+iPad mini (A17 Pro)
 
 
 Photoshop, PNG
@@ -1522,7 +1512,7 @@ Photoshop, PNG
 
 
 
-iPad Pro M4
+iPad Pro (M5)
 
 
 Photoshop, PNG
