@@ -211,10 +211,10 @@ SwiftUI
 Featured
 
 Accessibility
+AI & Machine Learning
 App Intents
 Apple Intelligence
 Games
-Machine Learning & AI
 Security
 Xcode Cloud
 
@@ -775,7 +775,7 @@ Product Bezels
 
 
 iOS and iPadOS
-iOS 26 and iPadOS 26
+iOS 27 and iPadOS 27
 
 
 
@@ -794,63 +794,13 @@ Sketch
 App Icon Template
 
 
+Figma
+
+
 Sketch
 
 
 Photoshop, Illustrator
-
-
-Figma
-
-
-
-
-
-iOS 18 and iPadOS 18
-
-
-
-UI Kit
-
-
-Sketch
-
-
-
-
-
-Templates
-
-
-Sketch
-
-
-
-
-
-Production Templates
-
-
-Sketch
-
-
-Photoshop
-
-
-Figma
-
-
-
-
-
-iOS 16
-
-
-
-Templates
-
-
-Keynote
 
 
 
@@ -860,7 +810,7 @@ Keynote
 
 
 macOS
-macOS 26
+macOS 27
 
 
 
@@ -871,44 +821,6 @@ Figma
 
 
 Sketch
-
-
-
-
-
-macOS Sequoia
-
-
-
-UI Kit
-
-
-Sketch
-Note: Sketch must be installed to download
-
-
-Figma
-
-
-
-
-
-Templates
-
-
-Sketch
-
-
-
-
-
-Production Templates
-
-
-Sketch
-
-
-Photoshop
 
 
 
@@ -1323,7 +1235,7 @@ With full support of the Niqqud diacritical marks.
 
 
 SF Symbols
-SF Symbols 7 is a library of over 6,900 symbols designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics tools to create custom symbols with shared design characteristics and accessibility features. SF Symbols 7 introduces Draw animations and variable rendering, enhanced Magic Replace, gradients, and hundreds of new symbols.
+SF Symbols is a library of over 7,000 symbols designed to integrate seamlessly with San Francisco, the system font for Apple platforms. Symbols come in nine weights and three scales, automatically align with text, and can be exported and edited using vector graphics tools to create custom symbols with shared design characteristics and accessibility features. Symbols feature multi-layer drawings designed for motion, enabling a range of expressive animations. Crafted for a global audience, symbols automatically adapt to a user’s reading direction and feature localized designs for over 20 international scripts.
 Learn more
 
 
@@ -1332,15 +1244,15 @@ Learn more
 
 
 
-Download SF Symbols 7
+Download SF Symbols 8 beta
 Requires macOS Sonoma or later.
 
 
 
 
 
-Download SF Symbols 6
-Requires macOS Ventura or later.
+Download SF Symbols 7
+Requires macOS Sonoma or later.
 
 
 
@@ -1358,7 +1270,7 @@ Requires macOS Ventura or later.
 
 
 Icon Composer
-Icon Composer lets you create layered icons out of Liquid Glass from a single design for iPhone, iPad, Mac, and Apple Watch. With a new multi-layer icon format, you can easily adjust Liquid Glass properties, preview with dynamic lighting effects, and annotate across appearance modes. Icon Composer is designed to work seamlessly with Xcode, and also provides the option to export a flattened version of your icon for marketing and communication needs.
+Icon Composer lets you create layered icons out of Liquid Glass from a single design for iPhone, iPad, Mac, and Apple Watch. A multi-layer icon format allows you to craft your icon and annotate it across appearance modes. Icon Composer is designed to work seamlessly with Xcode and provides the option to export a flattened version of your icon for marketing and communication needs.
 Learn more
 
 
@@ -1651,6 +1563,7 @@ Technologies
 
 Accessibility
 Accessories
+AI & Machine Learning
 Apple Intelligence
 Audio & Video
 Augmented Reality
@@ -1663,7 +1576,6 @@ Health & Fitness
 In-App Purchase
 Localization
 Maps & Location
-Machine Learning & AI
 Security
 Safari & Web
 
@@ -1682,6 +1594,7 @@ Documentation
 Downloads
 Sample Code
 Videos
+Documentation Archive
 
 
 
