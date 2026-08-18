@@ -261,7 +261,7 @@ Explore Community
 
 Overview
 Meet with Apple events
-Community-driven events
+Community events
 Developer Forums
 Open Source
 
@@ -1669,7 +1669,7 @@ WWDC
 
 
 
-Read the latest news. Get the Apple Developer app.
+Read the latest news. Get the Apple Developer app. Follow us on bilibili, LinkedIn, WeChat, and YouTube.
 		
 
 
