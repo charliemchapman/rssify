@@ -1300,7 +1300,7 @@ Requires macOS Sequoia or later.
 
 
 Parallax image tools
-Use Parallax Previewer and Parallax Exporter Plug-In for Adobe Photoshop to deliver parallax visual effects that transform static images into dynamic and immersive experiences on tvOS and visionOS.
+Use Parallax Previewer to deliver parallax visual effects that transform static images into dynamic and immersive experiences on tvOS and visionOS.
 
 
 
@@ -1316,20 +1316,6 @@ Requires macOS 10.10.5 or later.
 
 
 User Guide
-
-
-
-
-
-Parallax Exporter Plug-In for Adobe Photoshop
-
-
-Download for macOS
-Requires Adobe Photoshop 2023 (v24.1) or later and macOS 12.4.0 or later.
-
-
-Download for Windows
-Requires Adobe Photoshop 2023 (v24.1) or later and Microsoft Windows 10 64-bit (version 22H2) or later.
 
 
 
