@@ -449,6 +449,7 @@ Featured
 
 Account Help
 App Review Guidelines
+App Review Help
 App Store Connect Help
 Upcoming Requirements
 Agreements and Guidelines
@@ -1244,14 +1245,7 @@ Learn more
 
 
 
-Download SF Symbols 8 beta
-Requires macOS Sonoma or later.
-
-
-
-
-
-Download SF Symbols 7
+Download SF Symbols 27
 Requires macOS Sonoma or later.
 
 
@@ -1419,6 +1413,24 @@ Photoshop, PNG
 
 
 
+iPhone Duo
+
+
+Photoshop, PNG
+
+
+
+
+
+iPhone 18
+
+
+Photoshop, PNG
+
+
+
+
+
 iPhone 17
 
 
@@ -1550,6 +1562,7 @@ Technologies
 Accessibility
 Accessories
 AI & Machine Learning
+Apple In-App Purchase
 Apple Intelligence
 Audio & Video
 Augmented Reality
@@ -1559,7 +1572,6 @@ Distribution
 Education
 Games
 Health & Fitness
-In-App Purchase
 Localization
 Maps & Location
 Security
